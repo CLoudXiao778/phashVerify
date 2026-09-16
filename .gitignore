@@ -1,0 +1,24 @@
+# ---- Python ----
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Bundled ffmpeg binaries (downloaded, not source) ----
+# 126 MB each; re-download with tools/fetch_ffmpeg.ps1
+ffmpeg/bin/
+*.zip
+
+# ---- Generated data (regenerate with tools/make_corpus.py) ----
+data/corpus/queries/
+data/corpus/tmp/
+data/corpus/frames/
+db/
+frames/
+out/
+demo_work/
+
+# ---- Results: keep summary reports, ignore bulky per-frame dumps ----
+results/*.json
+!results/.gitkeep

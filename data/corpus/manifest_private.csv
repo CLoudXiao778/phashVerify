@@ -1,0 +1,19 @@
+qid,file,source,transform,note
+q001,q001.mp4,s2.mp4,crop_90,裁剪保留 90%
+q002,q002.mp4,s1.mp4,audio_swap,音量降 70%
+q003,q003.mp4,s2.mp4,rescale_180p,
+q004,q004.mp4,s1.mp4,watermark,大块不透明水印
+q005,q005.mp4,,negative,负样本
+q006,q006.mp4,s1.mp4,rescale_720p,
+q007,q007.webm,s2.mp4,codec_vp9,VP9+OPUS
+q008,q008.mp4,s3.mp4,rescale_720p,
+q009,q009.mp4,s3.mp4,subtitle,字幕条
+q010,q010.mp4,s3.mp4,trim_both,掐头去尾
+q011,q011.mp4,,negative,负样本
+q012,q012.mp4,s1.mp4,trim_head,掐头 2s：真值片段整体后移
+q013,q013.mp4,s1.mp4,mirror,水平镜像：命中率 0/32，靠镜像双查询救回
+q014,q014.mp4,s2.mp4,subtitle,字幕条
+q015,q015.mp4,s3.mp4,brightness,亮度/对比/饱和度调整
+q016,q016.mp4,,negative,负样本
+q017,q017.mp4,s2.mp4,codec_mpeg4,换编码 mpeg4
+q018,q018.mp4,s3.mp4,audio_reencode,MP3 64k

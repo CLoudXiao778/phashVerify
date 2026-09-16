@@ -1,0 +1,13 @@
+{
+  "sources": 3,
+  "queries": 18,
+  "positives": 15,
+  "negatives": 3,
+  "corrupt": 6,
+  "corrupt_already_unprobeable": [
+    "q902.mp4(break_header)",
+    "q903.mp4(truncate_10)",
+    "q904.mp4(truncate_30)"
+  ],
+  "problems": []
+}

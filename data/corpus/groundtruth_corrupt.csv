@@ -1,0 +1,7 @@
+qid,file,source,transform,verdict,gt_segment,corrupt,note
+q900,q900.mp4,s2.mp4,corrupt_flip_byte,positive,,flip_byte,基于 q001 的 flip_byte 损坏
+q901,q901.mp4,s2.mp4,corrupt_flip_bits,positive,,flip_bits,基于 q001 的 flip_bits 损坏
+q902,q902.mp4,s2.mp4,corrupt_break_header,positive,,break_header,基于 q001 的 break_header 损坏
+q903,q903.mp4,s2.mp4,corrupt_truncate_10,positive,,truncate_10,基于 q001 的 truncate_10 损坏
+q904,q904.mp4,s2.mp4,corrupt_truncate_30,positive,,truncate_30,基于 q001 的 truncate_30 损坏
+q905,q905.mp4,s2.mp4,corrupt_zero_middle,positive,,zero_middle,基于 q001 的 zero_middle 损坏
